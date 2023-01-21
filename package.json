@@ -1,6 +1,6 @@
 {
-  "name": "reanimated-masonry-list",
-  "version": "1.0.2",
+  "name": "@iamandiradu/reanimated-masonry-list",
+  "version": "1.0.3",
   "description": "Reanimated2 Masonry List for Pinterest like UI implemented just like the [FlatList].",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -25,9 +25,9 @@
   "author": "hyochan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hyochan/reanimated-masonry-list/issues"
+    "url": "https://github.com/iamandiradu/reanimated-masonry-list/issues"
   },
-  "homepage": "https://github.com/hyochan/reanimated-masonry-list#readme",
+  "homepage": "https://github.com/iamandiradu/reanimated-masonry-list#readme",
   "dependencies": {
     "dooboolab-welcome": "^1.3.2"
   },
