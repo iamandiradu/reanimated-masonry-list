@@ -1,6 +1,6 @@
 {
-  "name": "@iamandiradu/reanimated-masonry-list",
-  "version": "1.0.3",
+  "name": "@raduiamandi-pkg/reanimated-masonry-list",
+  "version": "1.0.4",
   "description": "Reanimated2 Masonry List for Pinterest like UI implemented just like the [FlatList].",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -45,8 +45,8 @@
     "@testing-library/react-native": "^11.2.0",
     "@types/jest": "^29.1.2",
     "@types/react": "~18.0.0",
-    "@types/react-native": "~0.69.1",
     "@types/react-dom": "^18.0.6",
+    "@types/react-native": "~0.69.1",
     "@types/react-test-renderer": "^18.0.0",
     "eslint": "^8.25.0",
     "eslint-plugin-ft-flow": "^2.0.1",
