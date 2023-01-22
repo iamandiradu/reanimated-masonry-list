@@ -111,11 +111,15 @@ function MasonryList<T>(props: Props<T>): ReactElement {
       }}
     >
       {ListHeaderComponent && (
-        <View style={ListHeaderComponentStyle}>{ListHeaderComponent}</View>
+        <View style={ListHeaderComponentStyle} key={'header'}>
+          {ListHeaderComponent}
+        </View>
       )}
       {ListHeaderComponents &&
-        ListHeaderComponents.map((component) => (
-          <View style={ListHeaderComponentStyle}>{component}</View>
+        ListHeaderComponents.map((component, index) => (
+          <View style={ListHeaderComponentStyle} key={'header' + index}>
+            {component}
+          </View>
         ))}
 
       <>
